@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  mysql-client:
+    image: mysql:latest  # We will use the official MySQL image
+    environment:
+      MYSQL_HOST: 18.136.157.135
+      MYSQL_USER: dm_team4
+      MYSQL_PASSWORD: DM!$!Team!47@4!23&
+      MYSQL_DATABASE: project_medical_data_history
+    command: >
+      sh -c "mysql -h $MYSQL_HOST -u $MYSQL_USER -p$MYSQL_PASSWORD $MYSQL_DATABASE"
+    stdin_open: true  # Keeps the container open for interactive use
+    tty: true  # Allocates a pseudo-TTY

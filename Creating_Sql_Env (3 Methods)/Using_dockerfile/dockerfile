@@ -1,0 +1,10 @@
+# Use the official MySQL image
+FROM mysql:latest
+
+# Set environment variables for MySQL (but don't hardcode the password here)
+ENV MYSQL_HOST=18.136.157.135
+ENV MYSQL_USER=dm_team4
+ENV MYSQL_DATABASE=project_medical_data_history
+
+# Use shell form with sh -c to ensure environment variables are expanded
+CMD ["sh", "-c", "mysql -h $MYSQL_HOST -u $MYSQL_USER -p$MYSQL_PASSWORD"]
