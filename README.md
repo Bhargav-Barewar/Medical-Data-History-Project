@@ -1,4 +1,4 @@
-# Medical Data History Project
+# `Medical Data History Project`
 
 ## Overview
 This project helps to manage and understand medical data about patients. It uses a database to store information about patients, their admissions to the hospital, and medical history. With this project, you can run different queries to get useful information about patients and their health records.
@@ -92,6 +92,6 @@ This project makes it easier for medical staff or researchers to organize and an
 
 ---
 
-# Checkout all performed SQL Queries in (SQL_Queries.md) file
+## Checkout all performed SQL Queries in (SQL_Queries.md) file
 
 Thank you for checking out the Medical Data History project!
