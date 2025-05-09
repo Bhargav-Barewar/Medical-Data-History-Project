@@ -92,6 +92,6 @@ This project makes it easier for medical staff or researchers to organize and an
 
 ---
 
-## Checkout all performed SQL Queries in (SQL_Queries.md) file
+## `📌Checkout all performed SQL Queries in (SQL_Queries.md) file`
 
 Thank you for checking out the Medical Data History project!
